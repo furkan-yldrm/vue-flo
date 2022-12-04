@@ -1,20 +1,26 @@
 <template>
   <div>
-  <UstKisim />
-  <Tutorial />
+    <Uyari />
+    <UstKisim />
+    <Navigation />
+    <Tutorial />
+  
   </div>
 </template>
 
 <script>
 import UstKisim from '../components/UstKisim.vue'
 import Tutorial from '../components/Tutorial.vue'
+import Navigation from '../components/Navigation.vue'
+import Uyari from '../components/Uyari.vue'
 
 export default {
   name: 'IndexPage',
   components: {
+    Uyari,
     Tutorial,
     UstKisim,
-
+    Navigation,
   },
 }
 </script>

@@ -2,8 +2,8 @@
   <div class="header">
     <form class="search" action="#">
       <div class="search-items">
-        <span>Arama</span>
-        <img src="../assets/searchicon.png" alt="Search" />
+        <span>Arama Yap</span>
+        <img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-search.svg" alt="Search" />
       </div>
     </form>
     <div class="logo">
@@ -15,19 +15,19 @@
       <ul class="list">
         <li class="item">
           <a href="#"
-            ><img src="../assets/gift.png" alt="" /><span
+            ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-gift-red.svg" alt="" /><span
               >Kurumsal Hediyeler</span
             ></a
           >
         </li>
         <li class="item">
           <a href="#"
-            ><img src="../assets/person.png" alt="" /><span>Giriş</span></a
+            ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-user.svg" alt="" /><span>Giriş</span></a
           >
         </li>
         <li class="item">
           <a href="#"
-            ><img src="../assets/bag.png" alt="" /><span>Sepet</span></a
+            ><img src="	https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-basket.svg" alt="" /><span>Sepet</span></a
           >
         </li>
       </ul>

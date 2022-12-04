@@ -5,7 +5,7 @@
       <button  class="buton1">
           <br><br><br><br><br><br><br><br>
           <button class="buton1buton">
-              SEPETE EKLEEE
+              SEPETE EKLE
           </button>
       </button>
       <button  class="buton2">
@@ -40,6 +40,7 @@ export default {
 .ana{
     background-color: white;
     margin: auto;
+    padding: 4rem 8rem;
 }
 
 h1 {
