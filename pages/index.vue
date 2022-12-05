@@ -1,10 +1,11 @@
 <template>
-  <div>
+  <div>    
     <Uyari />
     <UstKisim />
     <Navigation />
     <Tutorial />
-  
+    <Liste />
+    <Carousel />
   </div>
 </template>
 
@@ -13,6 +14,9 @@ import UstKisim from '../components/UstKisim.vue'
 import Tutorial from '../components/Tutorial.vue'
 import Navigation from '../components/Navigation.vue'
 import Uyari from '../components/Uyari.vue'
+import Carousel from '../components/Carousel.vue'
+import deneme from '../components/deneme.vue'
+import Liste from '../components/Liste.vue'
 
 export default {
   name: 'IndexPage',
@@ -21,6 +25,9 @@ export default {
     Tutorial,
     UstKisim,
     Navigation,
+    Carousel,
+    deneme,
+    Liste,
   },
 }
 </script>

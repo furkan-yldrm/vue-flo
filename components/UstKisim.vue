@@ -22,7 +22,7 @@
         </li>
         <li class="item">
           <a href="#"
-            ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-user.svg" alt="" /><span>Giriş</span></a
+            ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-user.svg" alt="" /><span>Giris</span></a
           >
         </li>
         <li class="item">

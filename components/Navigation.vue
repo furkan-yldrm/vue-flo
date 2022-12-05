@@ -2,28 +2,28 @@
   <nav class="main-nav">
     <ul class="nav-list">
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Hediye Gönder</span></a>
+        <a href="#"><img src="" alt="" /><span class="hediye">Hediye Gönder</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Dondurma</span></a>
+        <a href="#"><span>Dondurma</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Kahve</span></a>
+        <a href="#"><span>Kahve</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Çikolata</span></a>
+        <a href="#"><span>Çikolata</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Aksesuar</span></a>
+        <a href="#"><span>Aksesuar</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Pastacılık</span></a>
+        <a href="#"><span>Pastacılık</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Kampanyalar</span></a>
+        <a href="#"><span>Kampanyalar</span></a>
       </li>
       <li class="nav-list-item">
-        <a href="#"><img src="" alt="" /><span>Hakkımızda</span></a>
+        <a href="#"><span>Hakkımızda</span></a>
       </li>
     </ul>
   </nav>
@@ -47,6 +47,8 @@ export default {
   list-style: none;
   padding: 0 6rem;
   flex-wrap: wrap;
+  text-transform: uppercase;
+  margin-left: 4px;
 }
 
 span {

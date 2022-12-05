@@ -40,7 +40,7 @@ export default {
 .ana{
     background-color: white;
     margin: auto;
-    padding: 4rem 8rem;
+    padding: 8rem;
 }
 
 h1 {
