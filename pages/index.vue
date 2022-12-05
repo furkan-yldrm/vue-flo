@@ -6,6 +6,8 @@
     <Tutorial />
     <Liste />
     <Carousel />
+    <Giris />
+
   </div>
 </template>
 
@@ -17,6 +19,9 @@ import Uyari from '../components/Uyari.vue'
 import Carousel from '../components/Carousel.vue'
 import deneme from '../components/deneme.vue'
 import Liste from '../components/Liste.vue'
+import Sitealt from '../components/Sitealt.vue'
+import Giris from '../components/Giris.vue'
+
 
 export default {
   name: 'IndexPage',
@@ -28,6 +33,8 @@ export default {
     Carousel,
     deneme,
     Liste,
+    Sitealt,
+    Giris,
   },
 }
 </script>
