@@ -57,8 +57,7 @@ h1 {
     cursor: pointer;
     text-align: center;
     position: relative;
-    border:none
-    
+    border:none;
 }
 
 .ana .buton2 {
@@ -108,7 +107,7 @@ h1 {
     color: #005e5c;
     font-weight: bolder;
     visibility: hidden;
-    margin-top: 260px;
+    margin-top: 230px;
 }
 
 .ana .buton1:hover .buton1buton {
@@ -124,7 +123,7 @@ h1 {
     color: #005e5c;
     font-weight: bolder;
     visibility: hidden;
-    margin-top: 260px;
+    margin-top: 230px;
 }
 
 .ana .buton2:hover .buton2buton {
@@ -134,7 +133,7 @@ h1 {
 
 .ana .buton3 .buton3buton {
     border: 2px solid #005e5c;
-    margin-top: 260px;
+    margin-top: 230px;
     height: 50px;
     width: 150px;
     background-color: white;
@@ -152,7 +151,7 @@ h1 {
     border: 2px solid #005e5c;
     height: 50px;
     width: 150px;
-    margin-top: 260px;
+    margin-top: 230px;
     background-color: white;
     color: #005e5c;
     font-weight: bolder;
@@ -166,7 +165,6 @@ h1 {
 
 .ana .buton1 .buton1buton:hover {
     background-color: #005e5c;
-    margin-top: 260px;
     color: white;
 }
 

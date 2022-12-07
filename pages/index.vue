@@ -3,8 +3,8 @@
     <Uyari />
     <UstKisim />
     <Navigation />
-    <Tutorial />
     <Listele />
+    <Tutorial />    
     <Giris />
     <Footer />
     <FooterEn />
@@ -23,6 +23,7 @@ import Giris from '../components/Giris.vue'
 import Listele from '../components/Listele.vue'
 import Footer from '../components/Footer.vue'
 import FooterEn from '../components/FooterEn.vue'
+
 
 
 

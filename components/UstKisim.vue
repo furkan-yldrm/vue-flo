@@ -21,7 +21,7 @@
           >
         </li>
         <li class="item">
-          <a href="../pages/girisYap.vue"
+          <a href="#"
             ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-user.svg" alt="" /><span>Giris</span></a
           >
         </li>
