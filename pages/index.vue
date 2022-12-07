@@ -4,10 +4,12 @@
     <UstKisim />
     <Navigation />
     <Listele />
-    <Tutorial />    
+    <Tutorial />   
+    <Uclusira /> 
     <Giris />
     <Footer />
     <FooterEn />
+    
     
     
   </div>
@@ -23,6 +25,7 @@ import Giris from '../components/Giris.vue'
 import Listele from '../components/Listele.vue'
 import Footer from '../components/Footer.vue'
 import FooterEn from '../components/FooterEn.vue'
+import Uclusira from '../components/Uclusira.vue'
 
 
 
@@ -40,6 +43,7 @@ export default {
     Listele,    
     Footer,
     FooterEn,
+    Uclusira,
   },
 }
 </script>
