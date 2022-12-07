@@ -6,7 +6,6 @@
     <Tutorial />
     <Listele />
     <Giris />
-    <FooterUst />
     <Footer />
     <FooterEn />
     
@@ -20,11 +19,9 @@ import Tutorial from '../components/Tutorial.vue'
 import Navigation from '../components/Navigation.vue'
 import Uyari from '../components/Uyari.vue'
 import deneme from '../components/deneme.vue'
-import Sitealt from '../components/Sitealt.vue'
 import Giris from '../components/Giris.vue'
 import Listele from '../components/Listele.vue'
 import Footer from '../components/Footer.vue'
-import FooterUst from '../components/FooterUst.vue'
 import FooterEn from '../components/FooterEn.vue'
 
 
@@ -38,11 +35,9 @@ export default {
     UstKisim,
     Navigation,
     deneme,
-    Sitealt,
     Giris,
     Listele,    
     Footer,
-    FooterUst,
     FooterEn,
   },
 }
