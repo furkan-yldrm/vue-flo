@@ -31,6 +31,7 @@
         Hesabınız yok mu? <a style="color: ^00aeff" href="#">Kayıt Ol</a>
       </p>
     </div>
+    
   </div>
 </template>
 

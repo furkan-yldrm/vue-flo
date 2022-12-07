@@ -2,7 +2,7 @@
   <div class="notification">
     <a href="#"
       ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/cargo-car.png" alt="" /><span
-        >250 tl ve üzeri alışverişlerinizde kargo bedava</span
+        >250 tl ve üzeri alısverislerinizde kargo bedava</span
       ></a
     >
   </div>

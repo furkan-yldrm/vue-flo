@@ -58,6 +58,7 @@ h1 {
     text-align: center;
     position: relative;
     border:none
+    
 }
 
 .ana .buton2 {

@@ -4,10 +4,11 @@
     <UstKisim />
     <Navigation />
     <Tutorial />
-    <Liste />
-    <Carousel />
+    <Listele />
     <Giris />
-
+    <Footer />
+   
+    
   </div>
 </template>
 
@@ -16,11 +17,13 @@ import UstKisim from '../components/UstKisim.vue'
 import Tutorial from '../components/Tutorial.vue'
 import Navigation from '../components/Navigation.vue'
 import Uyari from '../components/Uyari.vue'
-import Carousel from '../components/Carousel.vue'
 import deneme from '../components/deneme.vue'
-import Liste from '../components/Liste.vue'
 import Sitealt from '../components/Sitealt.vue'
 import Giris from '../components/Giris.vue'
+import Listele from '../components/Listele.vue'
+import Footer from '../components/Footer.vue'
+
+
 
 
 export default {
@@ -30,11 +33,12 @@ export default {
     Tutorial,
     UstKisim,
     Navigation,
-    Carousel,
     deneme,
-    Liste,
     Sitealt,
     Giris,
+    Listele,    
+    Footer,
+
   },
 }
 </script>
