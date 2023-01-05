@@ -19,7 +19,7 @@
             margin-bottom: 30px;
             margin-top:-50px;
           "
-          >Parolanızı mı Unuttunuz?</a></div>
+          >Parolanizi mi Unuttunuz?</a></div>
        
           <img alt="Vue logo" src="../assets/denemedeneme.png" style="margin-bottom:-85px ; margin-left:-150px ; margin-right:-80px; margin-top:-10px">     
         <div class="pc">
@@ -28,7 +28,7 @@
       </form>
        
       <p class="asd">
-        Hesabınız yok mu? <a style="color: ^00aeff" href="#">Kayıt Ol</a>
+        Hesabiniz yok mu? <a style="color: ^00aeff" href="#">Kayit Ol</a>
       </p>
     </div>
     

@@ -1,6 +1,8 @@
 <template>
   <div class="body">
-    <div class="about">
+    <div class="about"><NuxtLink to="/">
+        
+    </NuxtLink>
       <h2>Giriş Yap</h2>
       <form>
         <div class="pc">

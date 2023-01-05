@@ -1,23 +1,20 @@
 <template>
-  <div>    
+  <div>
     <Uyari />
     <UstKisim />
     <Navigation />
     <Listele />
-    <Tutorial />   
-    <Uclusira /> 
+    <Tutorial />
+    <Uclusira />
     <Giris />
     <Footer />
     <FooterEn />
-    
-    
-    
   </div>
 </template>
 
 <script>
 import UstKisim from '../components/UstKisim.vue'
-import Tutorial from '../components/Tutorial.vue'
+import Tutorial from './tutorials.vue'
 import Navigation from '../components/Navigation.vue'
 import Uyari from '../components/Uyari.vue'
 import deneme from '../components/deneme.vue'
@@ -26,10 +23,6 @@ import Listele from '../components/Listele.vue'
 import Footer from '../components/Footer.vue'
 import FooterEn from '../components/FooterEn.vue'
 import Uclusira from '../components/Uclusira.vue'
-
-
-
-
 
 export default {
   name: 'IndexPage',
@@ -40,7 +33,7 @@ export default {
     Navigation,
     deneme,
     Giris,
-    Listele,    
+    Listele,
     Footer,
     FooterEn,
     Uclusira,
