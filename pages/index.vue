@@ -6,7 +6,6 @@
     <Listele />
     <Tutorial />
     <Uclusira />
-    <Giris />
     <Footer /> 
     <FooterEn />
     
