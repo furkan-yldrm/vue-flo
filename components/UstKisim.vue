@@ -21,10 +21,10 @@
           >
         </li>
         <li class="item">
-          <NuxtLink to="../components/Giris.vue"></NuxtLink>
-          <a href="../components/Giris.vue"
-            ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-user.svg" alt="" /><span>Giris</span></a
-          >
+          <a href="#"
+            ><img src="https://img-kahvedunyasi.mncdn.com/kahvedunyasi/static//img/icons/icon-user.svg" alt="" /><span
+              >Giris</span
+            ></a>
         </li>
         <li class="item">
           <a href="#"
@@ -38,6 +38,7 @@
 <script>
 export default {
   name: 'UstKisim',
+  
 }
 </script>
 
@@ -81,6 +82,7 @@ export default {
   list-style: none;
 }
 
+
 .item a {
   display: flex;
   justify-content: space-around;
@@ -106,6 +108,8 @@ export default {
 .item a img {
   margin-right: 0.5rem;
 }
+
+
 
 .search {
   display: flex;

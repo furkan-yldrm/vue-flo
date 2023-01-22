@@ -7,8 +7,9 @@
     <Tutorial />
     <Uclusira />
     <Giris />
-    <Footer />
+    <Footer /> 
     <FooterEn />
+    
   </div>
 </template>
 
