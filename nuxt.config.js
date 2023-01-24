@@ -24,7 +24,9 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: [
+    '@nuxtjs/pwa',
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -40,4 +42,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  
+  pwa: {
+    icon: false,
+    meta: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      author: 'Furkan Yildirim',
+    },
+
+    manifest: {
+      name: 'Furkan KD',
+    },
+  },
 }
