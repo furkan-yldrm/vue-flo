@@ -15,10 +15,12 @@
   </div>
 </template>
 
-<script>
-import { computed } from 'vue'
-export default {
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
   name: 'NuxtTutorial',
+
+
 
   data() {
     return {
@@ -36,7 +38,7 @@ export default {
   mounted() {
     this.getData
   },
-}
+})
 </script>
 
 <style scoped>
