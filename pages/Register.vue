@@ -1,42 +1,53 @@
 <template>
   <div class="body">
     <div class="about">
-      <h2>Giriş Yap</h2>
+      <h2>Kayıt Ol</h2>
       <form>
         <div class="pc">
-          <input type="text" required="" name="" placeholder="E-Posta" />
+          <input type="text" required="" placeholder="E-Posta" v-model="userData.email"/>
         </div>
         <div class="pc">
-          <input type="password" required="" name="" placeholder="Parola" />
+          <input type="password" required="" placeholder="Parola" v-model="userData.password"/>
         </div>
-        <div> <a
-          href="#"
-          style="
-            font-size: 13px;
-            margin-left: -210px;
-            margin-right: 0px;
-            color: #00aeff;
-            margin-bottom: 30px;
-            margin-top:-50px;
-          "
-          >Parolanizi mi Unuttunuz?</a></div>
        
-          <img alt="Vue logo" src="../assets/denemedeneme.png" style="margin-bottom:-85px ; margin-left:-150px ; margin-right:-80px; margin-top:-10px">     
         <div class="pc">
-          <input type="submit" value="GİRİŞ YAP" />
+          <router-link to="GirisYap"><button @click="registerToPage(userData)" type="button">KAYIT OL</button></router-link>
         </div>
       </form>
-       
-      <p class="asd">
-        Hesabiniz yok mu? <a style="color: ^00aeff" href="Register">Kayit Ol</a>
-      </p>
     </div>
     
   </div>
 </template>
 
 <script>
-export default {};
+import { collection, doc, setDoc } from "firebase/firestore";
+import { db } from "../firebase/index";
+export default {
+    data() {
+        return {
+            userData: {
+                email: null,
+                password: null
+            }
+        }
+    },
+    methods: {
+        async registerToPage(userData) {
+            const data = {
+                ...userData
+            }
+            const newCityRef = doc(collection(db, "users"));
+            // later...
+            await setDoc(newCityRef, data);
+            this.$store.commit('setUserData', data)
+            
+            setTimeout(() => {
+                this.$router.push({path:'/GirisYap'})
+            }, 1500);
+        }
+    }
+};
+
 </script>
 
 <style >
@@ -74,7 +85,7 @@ export default {};
   width: 100%;
   margin-bottom: 25px;
 }
-.about .pc input {
+.about .pc button  {
   height: 80px;
   width: 230%;
   padding: 0 15px;
@@ -95,8 +106,8 @@ export default {};
   background: #ffffff;
   text-transform: uppercase;
 }
-.about .pc input:focus ~ span,
-.about .pc input:valid ~ span {
+.about .pc button:focus ~ span,
+.about .pc button:valid ~ span {
   top: -12px;
   left: 12px;
   font-size: 12px;
@@ -104,7 +115,7 @@ export default {};
   border: 1px solid #000;
   background: #fff00f;
 }
-.about .pc input[type="submit"] {
+.about .pc button {
   background: #055037cb;
   border: none;
   box-shadow: none;
@@ -115,7 +126,7 @@ export default {};
   margin-left: -100px;
   margin-top: 90px;
 }
-.about .pc input[type="submit"]:hover {
+.about .pc button:hover {
   background: #0550379f;
 }
 .asd {
