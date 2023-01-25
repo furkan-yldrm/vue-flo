@@ -5,7 +5,7 @@
       class="kahvelist-item"
       v-for="kahve in kahveler"
       :key="kahve._id"
-      @click="$router.push(`/kahve/${kahve._id}`)"
+      @click="$router.push(`/Detail`)"
     >
       <img v-bind:src="kahve.thumbnail" alt="Kahve Fotoğrafı" />
       <p>{{ kahve.name }}</p>
